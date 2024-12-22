@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 
 # 데이터 불러오기
-ani_data = pd.read_csv('./Ani.csv')
-book_data = pd.read_csv('./Book.csv')
-mov_dra_data = pd.read_csv('./Mov_Dra.csv')
+ani_data = pd.read_csv('./villain_web/Ani.csv')
+book_data = pd.read_csv('./villain_web/Book.csv')
+mov_dra_data = pd.read_csv('./villain_web/Mov_Dra.csv')
 
 # 줄바꿈 처리 함수
 def format_text(text):
