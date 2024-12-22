@@ -40,7 +40,7 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.audio("./villain.mp3", format="audio/mp3")
+st.audio("./villain_web/villain.mp3", format="audio/mp3")
 
 # **기본 이미지 크기 초기화**
 img_width = 300  # 기본값 설정
